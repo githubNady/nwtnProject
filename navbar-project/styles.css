@@ -1,18 +1,35 @@
-.image {
-    height: 50%;
+body{
+    background-color: aquamarine;
 }
 
-/*#naV{
-    height: 40px;
-    background-color: white;
-}*/
-.scene{
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-.holder{
+.navbar{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.scene{
+    width: 400px;
+    height: 700px;
+    border: 2px ridge 
+}
+
+#nav{
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;;
+    width: 400px;
+}
+
+.conatiner{
+    display: flex;
+    justify-content: center;
+}
+a{
+    margin: 10px;
 }
